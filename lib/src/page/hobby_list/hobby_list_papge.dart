@@ -17,7 +17,14 @@ class HobbyListPage extends StatelessWidget {
                 hobbyIndex.toString(),
                 style: TextStyle(fontSize: 20),
               ),
-            )
+            ),
+            MaterialButton(onPressed: () {
+
+            },
+              elevation: 0,
+              color: Colors.indigoAccent.withOpacity(0.6),
+              child: Text('부트페이 결제'),
+            ),
           ],
         ),
       ),
