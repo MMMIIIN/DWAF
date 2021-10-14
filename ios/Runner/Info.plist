@@ -18,10 +18,32 @@
 	<string>$(FLUTTER_BUILD_NAME)</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.example.dwafHobby</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.example.dwafHobby</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>$(FLUTTER_BUILD_NUMBER)</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+	<key>NSFaceIDUsageDescription</key>
+	<string>생체인증 결제 진행시 권한이 필요합니다</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>The app needs location permission</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
@@ -41,27 +63,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSLocationWhenInUseUsageDescription</key>
-    <string>The app needs location permission</string>
-    <key>NSAppTransportSecurity</key>
-        <dict>
-            <key>NSAllowsArbitraryLoads</key>
-            <true/>
-        </dict>
-        <key>CFBundleURLTypes</key>
-        <array>
-            <dict>
-                <key>CFBundleTypeRole</key>
-                <string>Editor</string>
-                <key>CFBundleURLName</key>
-                <string>com.example.dwafHobby</string>
-                <key>CFBundleURLSchemes</key>
-                <array>
-                    <string>bootpaySample</string>
-                </array>
-            </dict>
-        </array>
-        <key>NSFaceIDUsageDescription</key>
-        <string>생체인증 결제 진행시 권한이 필요합니다</string>
 </dict>
 </plist>

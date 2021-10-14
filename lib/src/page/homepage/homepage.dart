@@ -34,7 +34,8 @@ class HomePage extends StatelessWidget {
                       height: 50,
                       decoration: BoxDecoration(
                           color: Colors.indigoAccent.withOpacity(0.8),
-                          shape: BoxShape.circle),
+                          shape: BoxShape.circle,
+                      ),
                     ),
                   );
                 },
